@@ -85,82 +85,75 @@ images.forEach((img, index) => {
 
 const bookTexts = [
 
-    `<h2 class="book-heading">Die Ära des Essenz-Blutes: Aufzeichnungen eines Wanderers in Vaelmora</h2>
-    
-    <p>Ich bin in das Fürstenreich <strong>Vaelmora</strong> eingetreten – ein Land, das seine Bewohner den <strong>"Scherbenhof der Träume"</strong> nennen. Es heißt, die Welt fiel im <strong>Jahr 923</strong>, als der <strong>Große Bruch</strong> die Erde spaltete und das <strong>Essenz-Blut</strong> zu fließen begann. <span class="strikethrough"> Verantwortlich scheinen die </span> Seitdem klammern sich die Menschen an alte Glaubensstrukturen – besonders an den <strong>Kettenherrscher</strong> und seine strengen Kettenregeln.</p>
-    
-    <p>Die <strong>Essenz</strong> selbst scheint mehr als nur eine Substanz zu sein. Man erzählt mir, sie sei ein <strong>Fragment uralten Chaos’</strong>, das einst gebannt war, nun aber wieder durch die Risse der Welt sickerte. Ich habe gesehen, wie sie das, was sie berührt, <strong>verändert</strong> – Lebendes wie Totes. Sie ist kein Segen und kein Fluch, sondern beides zugleich.</p>
+`<h2 class="book-heading">Die Ära des Essenz-Blutes: Aufzeichnungen eines Wanderers in Vaelmora</h2>
 
-    <p><strong>Die Kettenregeln:</strong> Der <strong>Kettenherrscher</strong> soll sie selbst erlassen haben, um Ordnung und Hierarchie inmitten des Chaos zu bewahren. Seine Gläubigen tragen sichtbare Ketten, als Zeichen der Unterwerfung unter die göttliche Ordnung. Ich beobachtete verschiedene Arten:</p>
-    <ul>
-        <li><strong>Normale Bürger:</strong> Eisenketten an Bauch oder Arm</li>
-        <li><strong>Adel/Fürsten:</strong> Silber- oder Stahlketten um Hals oder Schulter</li>
-        <li><strong>Priester/Richter:</strong> schwere Ketten aus Eisen oder Gold über Brust und Handgelenke</li>
-    </ul>
-    `,
+<p>Ich bin in das Fürstenreich Vaelmora eingetreten – ein Land, das seine Bewohner den „Scherbenhof der Träume“ nennen. Es heißt, die Welt fiel im Jahr 923, als der Große Bruch die Erde spaltete und das Essenz-Blut zu fließen begann. Seitdem klammern sich die Menschen an alte Glaubensstrukturen – besonders an den Kettenherrscher und seine strengen Kettenregeln.</p>
 
-    `
-    <p><strong>Die Wunden der Welt:</strong> Überall im Land gibt es die Essenzrisse und die Essenzschluchten. Sie sind die Geburtsstätten der Essenzkreaturen und der gewaltigen Essenzstürme. 
-    </p>
+<p>Die Essenz selbst scheint mehr als nur eine Substanz zu sein. Man erzählt mir, sie sei ein Fragment uralten Chaos’, das einst gebannt war, nun aber wieder durch die Risse der Welt sickert. Ich habe gesehen, wie sie das, was sie berührt, verändert – Lebendes wie Totes. Sie ist kein Segen und kein Fluch, sondern beides zugleich.</p>
 
-    <p><strong>Der Reichtum:</strong> In den tiefsten, tödlichsten Essenz-Quellen bilden sich die Essenzkristalle. Unsere Essenzräuber riskieren ihr Leben in den Schluchten, um diese an die Großabnehmer zu verkaufen. Die Händler feilschen zudem mit <span class="strikethrough" data-unredacted="Gefrorene Tränen – Relikte der Slezanen, gehärtete Essenzen, die aus Erinnerungen Verstorbener gewonnen werden. Man sagt, sie machen Magie unkontrollierbar stark.">Gefrorene Tränen – mysteriöse, gehärtete Sekrete, die Magie unkontrollierbar stark machen. [Zensiert. 147 Zeichen]</span>.
-    </p>
-    
-    <p><strong>Der Schwarze Markt:</strong> Die <strong>Schwarzen Märkte</strong> sind das Herz von Vaelmora. Paradoxerweise werden sie von den Fürsten selbst kontrolliert. Sie sind die zentrale Quelle für alles Illegale und Essenz-bezogene. Vieles, was dort gehandelt wird, bleibt unausgesprochen – nur die Mutigsten wagen sich hinein.</p>
-    `,
+<p>Die Kettenregeln: Der Kettenherrscher soll sie selbst erlassen haben, um Ordnung und Hierarchie inmitten des Chaos zu bewahren. Seine Gläubigen tragen sichtbare Ketten als Zeichen der Unterwerfung unter die göttliche Ordnung. Ich beobachtete verschiedene Arten:</p>
+<ul>
+    <li>Normale Bürger: Eisenketten an Bauch oder Arm</li>
+    <li>Adel und Fürsten: Silber- oder Stahlketten um Hals oder Schulter</li>
+    <li>Priester und Richter: schwere Ketten aus Eisen oder Gold über Brust und Handgelenke</li>
+</ul>
+`,
 
-    `
-    <p><strong>II. Die Zersplitterte Herrschaft: Unsere Fürsten:</strong> Die <strong>Fürsten von Vaelmora</strong> sind unsere Herren. Sie bieten kaum Schutz, aber sie verlangen Gehorsam und hohe Abgaben von den Dörfern Vaelmoras. Man flüstert sich Folgendes zu:</p>
-    
-    <p><strong>Fürst Vorgath</strong>: Er herrscht über die toxischen Schattenmarschen. <span class="strikethrough" data-unredacted="Sein Reichtum stammt aus dem Handel mit Gefrorenen Tränen, die über geheime Transportwege bis in die Schwarzmärkte von Thetreby gelangen. Seine Aufseher arbeiten mit dem Kodex des Roten Gesetzes zusammen.">Export eines Gifttrank-Rauschmittels. [Zensiert. 88 Zeichen]</span>.</p>
-    
-    <p><strong>Fürst Kaelon</strong>: Er herrscht über die Dörfer nahe der Grauen Ebenen. Man sagt, er habe einen <span class="strikethrough" data-unredacted="schrecklichen Pakt geschlossen, um seine Pächter vor der Versteinerungskrankheit zu retten. Dieser Pakt kostet ihn seine Seele und zwingt ihn, seinen eigenen Leuten in die Augen zu blicken, was ihn von der Öffentlichkeit fernhält.">schrecklichen Pakt geschlossen [Zensiert. 235 Zeichen]</span>.</p>
-    
-    <p><strong>Fürst Caludrin</strong>: Er sitzt in der Hauptstadt Thetreby und herrscht mit eiserner Ordnung. Unter seiner Verwaltung werden <strong>Essenzmutierte</strong> als <em>Unreine</em> betrachtet und aus ihren Dörfern verstoßen. Seine Edikte sind streng, seine Kontrolle lückenlos. Man sagt, er sehe in jeder Mutation eine Ketzerei gegen die Schöpfung selbst.</p>
+`
+<p>Die Wunden der Welt: Überall im Land finden sich Essenzrisse und Essenzschluchten. Sie sind die Geburtsstätten der Essenzkreaturen und der gewaltigen Essenzstürme.</p>
 
-    <p>Doch selbst seine eiserne Herrschaft beginnt zu bröckeln. Intrigen schwächen seine Macht, während ein größeres Rätsel über ihm schwebt – die Rückkehr seines <strong>lang verschollenen Bruders</strong>, der nach über fünfzig Jahren wieder erschien und <em>keinen Tag gealtert</em> scheint.</p>
-    <p>Von weiteren Fürsten wird nur hinter vorgehaltener Hand gesprochen – Namen, die ich nie selbst gehört habe, doch deren Einfluss wie ein fernes Donnergrollen über Vaelmora liegt.</p>
+<p>Der Reichtum: In den tiefsten, tödlichsten Essenzquellen bilden sich Essenzkristalle. Unsere Essenzräuber riskieren ihr Leben in den Schluchten, um diese an die Großabnehmer zu verkaufen. Die Händler feilschen zudem mit <span class="strikethrough" data-unredacted="Gefrorene Tränen – Relikte der Slezanen, gehärtete Essenzen, die aus Erinnerungen Verstorbener gewonnen werden. Man sagt, sie machen Magie unkontrollierbar stark.">Gefrorenen Tränen – mysteriösen, gehärteten Sekreten, die Magie unkontrollierbar stark machen. [Zensiert. 147 Zeichen]</span>.</p>
 
- 
-    `,
+<p>Der Schwarze Markt: Er ist das Herz Vaelmoras. Paradoxerweise wird er von den Fürsten selbst kontrolliert. Hier findet man alles Verbotene und Essenzgebundene. Vieles, was dort gehandelt wird, bleibt unausgesprochen – nur die Mutigsten wagen sich hinein.</p>
+`,
 
-    `
-    <p><strong>III. Der Kodex und die Vergessenen:</strong> In den Schatten Thetrebys wächst die Macht einer Organisation, die sich der <strong>Kodex des Roten Gesetzes</strong> nennt. Ihr Symbol: eine Kette, die sich um ein blutrotes Buch schließt. Ihr Ziel scheint es zu sein, uralte Forschung über den sogenannten <strong>BloodBorn</strong> und den <strong>BloodHunter</strong> zu kontrollieren.</p>
+`
+<p>II. Die Zersplitterte Herrschaft – Unsere Fürsten: Die Fürsten von Vaelmora sind unsere Herren. Sie bieten kaum Schutz, doch verlangen Gehorsam und hohe Abgaben. Man flüstert sich Folgendes zu:</p>
 
-    <p>Quellen deuten darauf hin, dass der Kodex seine Erkenntnisse von den <strong>Slezanen</strong> bezog – einem vergessenen Volk von Forschern, die einst die <strong>Gefrorenen Tränen</strong> erschufen. Diese Kristalle dienten ursprünglich dazu, die <em>Erinnerungen Verstorbener</em> zu bewahren. Heute nutzt man sie als Machtquelle oder als Droge.</p>
+<p>Fürst Vorgath: Er herrscht über die toxischen Schattenmarschen. <span class="strikethrough" data-unredacted="Sein Reichtum stammt aus dem Handel mit Gefrorenen Tränen, die über geheime Transportwege bis in die Schwarzmärkte von Thetreby gelangen. Seine Aufseher arbeiten mit dem Kodex des Roten Gesetzes zusammen.">Export eines Gifttrank-Rauschmittels. [Zensiert. 88 Zeichen]</span>.</p>
 
-    <p>Einige behaupten, die Slezanen seien nicht völlig verschwunden, sondern würden noch immer über ihre alten Stätten wachen – besonders über die Ruinen des <strong>Tempels der Sun Paladine</strong>, wo ihre Experimente einst endeten.</p>
-    `,
+<p>Fürst Kaelon: Er regiert die Dörfer nahe der Grauen Ebenen. Man sagt, er habe einen <span class="strikethrough" data-unredacted="schrecklichen Pakt geschlossen, um seine Pächter vor der Versteinerungskrankheit zu retten. Dieser Pakt kostet ihn seine Seele und zwingt ihn, seinen eigenen Leuten in die Augen zu blicken, was ihn von der Öffentlichkeit fernhält.">schrecklichen Pakt geschlossen [Zensiert. 235 Zeichen]</span>.</p>
 
-    `
-    <p><strong>IV. Die Anderen Reiche (Was man am Feuer hört):</strong> Die drei großen Reiche haben ihre Existenz um die Essenz herum aufgebaut und stehen in ständigem ideologischen Konflikt zueinander.</p>
-    
-    <p><strong>1. Agramon: Das Reich der gebrochenen Klingen (Die Gier):</strong> Sie sind militaristisch und brutal. Sie sehen in der Essenz die <strong>ultimative Macht</strong>. Ihr Motto ist: <strong>"Krieg ist der einzige Weg."</strong></p>
+<p>Fürst Caludrin: Er sitzt in der Hauptstadt Thetreby und herrscht mit eiserner Ordnung. Unter seiner Verwaltung werden Essenzmutierte als <em>Unreine</em> betrachtet und aus ihren Dörfern verstoßen. Seine Edikte sind streng, seine Kontrolle lückenlos. Man sagt, er sehe in jeder Mutation eine Ketzerei gegen die Schöpfung selbst.</p>
 
-    <p><strong>Die Blutprobe:</strong> Man sagt, sie zwingen ihre Bürger, sich einer Infusion mit Essenz zu unterziehen – der sogenannten Blutsteuer. Wer überlebt, wird zum Krieger, zum vollwertigen Bürger. Wer scheitert, wird verstoßen und in die niedersten Dienste gezwungen.</p>
-    `,
+<p>Doch selbst seine eiserne Herrschaft beginnt zu bröckeln. Intrigen schwächen seine Macht, während ein größeres Rätsel über ihm schwebt – die Rückkehr seines lang verschollenen Bruders, der nach über fünfzig Jahren wieder erschien und keinen Tag gealtert scheint.</p>
 
-    `
-    <p><strong>2. Altheris: Die Zitadelle der Kontrolle (Die Angst):</strong> Sie sind die Gelehrten, die in Furcht leben. Ihre Philosophie: Sie sehen die Essenz als <strong>"göttliche Strafe"</strong> und haben sich hinter massiven Mauern verschanzt (Ordnung durch Abschottung).</p>
-    
-    <p><strong>Die Technologie:</strong> Sie nutzen eine als <strong>Magitek</strong> bekannte Technologie. Ihre kristallgespeisten Energetischen Barrieren schützen ihre Städte, und die Reinheitsglocke ist ein Instrument, das jeden Winkel überwacht.</p>
-    
-    <p><strong>Die Gesellschaft:</strong> Die Gesellschaft wird in Kasten unterteilt: <strong>Reinblütige</strong> (Elite), <strong>Gebrandmarkte</strong> (Arbeiter mit leichten Mutationen) und die <strong>Exilanten</strong> (stark Mutierte), die in die Wüsten verbannt wurden. Man munkelt, dass sich unter den Gebrandmarkten eine Rebellengruppe namens <span class="strikethrough" data-unredacted="Die Gespaltenen">Die Gespaltenen</span> verbirgt.</p>
-    `,
+<p>Von weiteren Fürsten hört man nur hinter vorgehaltener Hand – Namen, die ich nie selbst gehört habe, deren Einfluss jedoch wie ein fernes Donnergrollen über Vaelmora liegt.</p>
+`,
 
+`
+<p>III. Der Kodex und die Vergessenen: In den Schatten der Großstädte Vaelmoras wächst die Macht einer Organisation, die sich der Kodex des Roten Gesetzes nennt. In ihrem Namen geschehen Attentate, Plünderungen und heimliche Werke, doch was sie wirklich wollen, bleibt im Dunkeln. </p>
+`,
 
-    `
-    <p><strong>V. Der Himmel und die Alten (Der Glaube):</strong> Ich habe in verschiedenen Dörfern gehört, dass die <strong>Götter</strong> seit dem Großen Bruch kaum noch antworten. Ihr Schweigen hat viele verunsichert. Doch der Glaube hält – verbogen, aber nicht gebrochen.</p>
-    
-    <p><strong>Der Kettenherrscher</strong> (Die Ordnung): Von allen ist er der lauteste in den Gebeten der Menschen. Er gilt als Gott der Gesetze, der Strafe und der Struktur. Seine Jünger bestehen darauf, dass nur durch <strong>Ordnung, Pflicht und Leid</strong> die Welt wieder heil werden könne. Ich sah, wie Männer sich selbst in Ketten legten, um Buße zu tun. Sie nennen es „Dienst an der Welt“.</p>
+`
+<p>IV. Die anderen Reiche – Was man am Feuer hört: Die drei großen Reiche haben ihre Existenz um die Essenz herum aufgebaut und stehen in ständigem ideologischen Konflikt zueinander.</p>
 
-    <p><strong>Die Erntemutter</strong> (Fruchtbarkeit): Über sie schweigt man inzwischen fast. Felder verdorren, Ernten fallen aus. Die alten Gebete scheinen machtlos. Ich hörte, dass manche in der Dunkelheit versuchen, sie durch <span class="strikethrough" data-unredacted="dunkle Rituale">dunkle Rituale</span> zu besänftigen – doch keiner spricht offen darüber.</p>
-    
-    <p><strong>Die Schattenzwillinge</strong> (Die Heimlichen): Ihr Einfluss wächst im Verborgenen. Wanderer erzählen, sie seien die Herren des Vergessens, die neue Identitäten gewähren – zu einem Preis. Davon habe ich gehört, ebenso wie von <span class="strikethrough">Ghule</span> und <span class="strikethrough">Offränen</span> – doch nie selbst eines dieser Dinge gesehen.</p>
+<p>1. Agramon – Das Reich der gebrochenen Klingen (Die Gier): Sie sind militaristisch und brutal. Sie sehen in der Essenz die ultimative Macht. Ihr Motto lautet: „Krieg ist der einzige Weg.“</p>
 
-    <p>Je länger ich durch <strong>Vaelmora</strong> reise, desto klarer wird mir: In dieser Ära des Essenz-Blutes überlebt nur, wer zu verstehen versucht – nicht wer blind folgt. Wahrheit ist hier wie die Essenz selbst – veränderlich, gefährlich, aber unvermeidlich.</p>
-    `
+<p>Die Blutprobe: Man sagt, sie zwingen ihre Bürger, sich einer Infusion mit Essenz zu unterziehen – der sogenannten Blutsteuer. Wer überlebt, wird zum Krieger, zum vollwertigen Bürger. Wer scheitert, wird verstoßen und in die niedersten Dienste gezwungen.</p>
+`,
+
+`
+<p>2. Altheris – Die Zitadelle der Kontrolle (Die Angst): Sie sind Gelehrte, die in Furcht leben. Ihre Philosophie: Die Essenz sei eine göttliche Strafe, und nur durch Isolation könne man ihr entgehen. Sie haben sich hinter massiven Mauern verschanzt – Ordnung durch Abschottung.</p>
+
+<p>Die Technologie: Sie nutzen eine als Magitek bekannte Kunst. Ihre kristallgespeisten Barrieren schützen ihre Städte, und die Reinheitsglocke ist ein Instrument, das jeden Winkel überwacht.</p>
+
+<p>Die Gesellschaft: Das Volk ist in Kasten unterteilt – Reinblütige (Elite), Gebrandmarkte (Arbeiter mit leichten Mutationen) und Exilanten (stark Mutierte), die in die Wüsten verbannt wurden. Man munkelt, dass sich unter den Gebrandmarkten eine Rebellengruppe namens <span class="strikethrough" data-unredacted="Die Gespaltenen">Die Gespaltenen</span> verbirgt.</p>
+`,
+
+`
+<p>V. Der Himmel und die Alten – Der Glaube: Ich habe in vielen Dörfern gehört, dass die Götter seit dem Großen Bruch kaum noch antworten. Ihr Schweigen verunsichert viele, doch der Glaube hält – verbogen, aber nicht gebrochen.</p>
+
+<p>Der Kettenherrscher (Die Ordnung): Von allen ist er der lauteste in den Gebeten der Menschen. Er gilt als Gott der Gesetze, der Strafe und der Struktur. Seine Jünger glauben, nur durch Ordnung, Pflicht und Leid könne die Welt wieder heil werden. Ich sah, wie Männer sich selbst in Ketten legten, um Buße zu tun. Sie nennen es „Dienst an der Welt“.</p>
+
+<p>Die Erntemutter (Fruchtbarkeit): Über sie schweigt man inzwischen fast. Felder verdorren, Ernten fallen aus. Die alten Gebete scheinen machtlos. Ich hörte, dass manche in der Dunkelheit versuchen, sie durch <span class="strikethrough" data-unredacted="dunkle Rituale">dunkle Rituale</span> zu besänftigen – doch keiner spricht offen darüber.</p>
+
+<p>Die Schattenzwillinge (Die Heimlichen): Ihr Einfluss wächst im Verborgenen. Wanderer erzählen, sie seien die Herren des Vergessens, die neue Identitäten gewähren – zu einem Preis. Davon habe ich gehört, ebenso wie von <span class="strikethrough">Ghule</span> und <span class="strikethrough">Offränen</span> – doch nie selbst eines dieser Dinge gesehen.</p>
+
+<p>Je länger ich durch Vaelmora reise, desto klarer wird mir: In dieser Ära des Essenz-Blutes überlebt nur, wer zu verstehen sucht – nicht, wer blind folgt. Wahrheit ist hier wie die Essenz selbst – veränderlich, gefährlich, aber unvermeidlich.</p>
+`
 ];
+
 
 
 
