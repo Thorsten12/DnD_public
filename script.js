@@ -307,7 +307,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const bildPfade = [
         './missionen/1.png',
         './missionen/2.png',
-        './missionen/3.png'
+        './missionen/3.png',
+        './missionen/4.png'
     ];
 
     const gridImages = [];
@@ -397,7 +398,91 @@ const adventureTexts = [
     <p>Die Helden <strong>Bjorpi</strong>, <strong>Orelio</strong> und <strong>Harald</strong> durchstreiften einen dichten Wald, als sie einen schrillen, unmenschlichen Schrei hörten. Kurz darauf entdeckten sie einen Jungen, der auf einem Moosbaum saß. Es war Felix, etwa zehn bis vierzehn Jahre alt, mit einem blutigen Messer in der Hand. Vor ihm lag ein gehäutetes Eulenbärbaby. \"Das sind meine, die habe ich ganz fair selber gefangen\", behauptete der Junge, während ein süßlich-fauler Geruch und Blutgeruch die Szene begleiteten.</p>
     <p>Kaum hatten sie die Situation erfasst, erschien die Eulenbären-Mutter – ein großes, wütendes Monstrum , das verzweifelt nach ihren Jungen suchte. Sie griff sofort an, als sie ihre toten Junges sah.</p>
     <p>Nach dem Kampf ging die Gruppe in die Taverne "Zum Verlorenen Jungen", wo der Junge als verlorener Bruder des Fürsten Caludrin erkannt wurde. Die Soldaten schicken sie zu einer Audienz zu <strong>Fürst Caludrin</strong> in dessen riesiger Bibliothek. Caludrin erklärte ruhig und prüfend: \"Fünfzig Jahre... und jetzt kehrt mein Bruder in einem Kinderkörper zurück. Was für ein grausamer Scherz der Welt. Doch... auch ein Segen.\" Er reichte Felix Brot und Wein, und die Gruppe erkannte, dass der Junge tatsächlich der seit 50 Jahren vermisste Fürstenbruder war.</p>
-    <p>Für die Hilfe erhielten die Helden Gold, ein Fürstliches Siegel und die Wahl zwischen einem <strong>Bag of Holding</strong>, <strong>Boots of Elvenkind</strong> oder einem <strong>Immovable Rod</strong>. Felix war in Sicherheit, und die Helden zogen mit neuen Belohnungen und Erkenntnissen aus der Bibliothek zurück.</p>`
+    <p>Für die Hilfe erhielten die Helden Gold, ein Fürstliches Siegel und die Wahl zwischen einem <strong>Bag of Holding</strong>, <strong>Boots of Elvenkind</strong> oder einem <strong>Immovable Rod</strong>. Felix war in Sicherheit, und die Helden zogen mit neuen Belohnungen und Erkenntnissen aus der Bibliothek zurück.</p>`,
+
+    // Das 4te Abenteuer: Boris in der Monastry, Orelio vor Anklage
+
+    `<h2 class="book-heading">
+    Unser Abenteuer geht nach einem Jahr weiter
+</h2>
+
+<p>
+    Diesmal jedoch aus der Sicht des Bogenschützen <strong>Boris Haudrauf</strong>:
+</p>
+
+<p><em>Tagebucheintrag von Boris</em></p>
+
+<p>
+    Heute schreibe ich wieder etwas auf. Wir sind in einem alten Kloster, die Leute sagen, es sei ein Geisterhaus.
+    Wir sollen hier Artefakte für Wendel Gravebrush holen. Ich nenne ihn aber lieber Wendel Scheißbrush.
+    Das passt besser zu ihm.
+</p>
+
+<p>
+    Drinnen ist alles seltsam. Die Tische bewegen sich einfach so. Ein Skelett steht da und fällt nicht um.
+    Es ist richtig standhaft. Dann gibt es da noch eine Metallvase.
+    Ich denke schon, vielleicht ist die Vase der Körper vom Skelett.
+    Das wäre verrückt, aber irgendwie passt es.
+    Das Skelett bekommt zwei Dinge: die Metallvase und einen Kristall.
+    Beides zusammen wirkt komisch. Irgendwie crazy.
+</p>
+
+<p>
+    Im Keller wird es noch merkwürdiger. Dort riecht es stark und unangenehm.
+    Der Kristall saugt Lebensenergie. Im Kampf treffe ich fast nichts.
+    Das ist frustrierend, aber so ist es eben manchmal.
+    Wir entscheiden uns, im Kloster zu übernachten und sichern alles mit einer Bärenfalle.
+</p>
+
+<p>
+    Am nächsten Morgen wollen wir nach Tertibi zurück. Unterwegs treffen wir einen Kaufmann mit ein paar Halborken.
+    Die sind nicht auf unserer Seite. Sie transportieren Gemälde.
+    Flunder und Herbert erzählen viel zu viel darüber, wer wir sind und was wir haben.
+    Ich denke mir nur, was für Idioten.
+    Dann gibt es Streit. Wenn mit wir eigentlich nur Flunder gemeint ist, dann sind wir wohl schon tot.
+</p>
+
+<p>
+    Ich selbst liege jetzt gefesselt an einem Baum. So endet der Tag.
+    Mal sehen, was morgen wird.
+</p>
+
+<p><em>– Tagebucheintrag von Orilio</em></p>
+
+<p>
+    Zum Anbruch des Tages sitze ich noch immer in der misslichen Lage des Gefängnisses.
+    Trotz der Enge bemühe ich mich, gesammelt zu bleiben.
+    Heute erhielten wir die Gelegenheit, in einem separaten Raum mit Cauldren zu sprechen.
+    Dabei wurde uns vorgeworfen, das Übel der ganzen Welt zu verkörpern.
+    Die Anschuldigung ist schwer, doch ich höre aufmerksam zu.
+    Besonders bemerkenswert ist die Information, dass ein Ort namens Neverland über ein Dimensionsportal erreichbar sei.
+    Diese Erkenntnis ist zugleich faszinierend und beunruhigend.
+</p>
+
+<p>
+    Wir werden schließlich vor ein Tribunal geführt, bestehend aus einer Fürstenriege.
+    Der Umgangston ist hart und wenig freundlich.
+    Man berichtet uns, dass aus Neverland nur sehr wenige zurückkehren.
+    Zudem seien jene, die es schaffen, in Geist und Seele stark erschüttert.
+    Unsere Strafe soll entweder der Tod sein oder der Tod durch Exil in Neverland.
+    Das Urteil fällt ohne Mitleid.
+</p>
+
+<p>
+    Man bringt uns zu einem Portal, das mit dem leblosen Körper von Felix in Verbindung steht.
+    Als dieser Körper in die Nähe des Portals getragen wird, öffnet sich ein Riss in der Wirklichkeit.
+    Ohne viel Zögern werden wir hinübergedrängt.
+    Ich spüre einen Moment des Übergangs, als verliere die Welt ihren vertrauten Halt.
+</p>
+
+<p>
+    Nun befinden wir uns in Neverland. Es ist Nacht.
+    Der Himmel ist klar und von Sternen erfüllt.
+    Ich nehme mir vor, eine Karte nach Sternbildern zu erstellen, um unsere Orientierung zu sichern.
+    Wissen bleibt auch in dunklen Stunden ein treuer Begleiter.
+    So endscheide ich, ruhig zu bleiben und mit Bedacht zu handeln.
+</p>`
+
 ];
 
 
